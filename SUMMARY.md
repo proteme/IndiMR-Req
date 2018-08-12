@@ -13,7 +13,7 @@
 * [Health worker \(user\)](health-worker-user.md)
 * [Ad hoc health worker \(user\)](ad-hoc-health-worker-user.md)
 * [Health Administrator \(user\)](health-administrator-user.md)
-* [Health Facility Representative](health-facility-representative.md)
+* [Health Facility Representative \(user\)](health-facility-representative.md)
 * [Insurer \(user\)](insurer-user.md)
 * [Model](model.md)
 
