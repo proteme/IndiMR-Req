@@ -16,4 +16,5 @@
 * [Health Facility Representative \(user\)](health-facility-representative.md)
 * [Insurer \(user\)](insurer-user.md)
 * [Model](model.md)
+* [Clinical Process Must be the Monarch](clinical-process-must-be-the-monarch.md)
 

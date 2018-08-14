@@ -14,7 +14,7 @@ To allow the adaptability needed for changing clinical knowledge and requirement
 
 [Bubble ](https://bubble.is/)has some ideas similar to what we propose here.
 
-![](.gitbook/assets/image%20%282%29.png)
+![](.gitbook/assets/image%20%288%29.png)
 
 ## Knowledge Represented by HL7 RIM as the Core
 
@@ -22,21 +22,21 @@ Clinical knowledge represented by the HL7 Reference Information Model will form 
 
 Following are the classes we will be predominantly using.
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 We will create an event-centric enhancement of the model.
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 ## Knowledge Data Module
 
-![](.gitbook/assets/image.png)
+![](.gitbook/assets/image%20%283%29.png)
 
 The values of the Observation class will be encapsulated as _**Inputs**_ of the **Knowledge Data Modules \(KDMs\)**. The KDM is wholly functioning self contained module which takes _**Inputs**_ and produces and _**Output**_. It uses a **Transform Engine** \(**TE**\) to create the output. The TE could be any software component, such as a rule engine, or a visualization engine. The output would be data in any of the acceptable formats, e.g., String, Number, Image, Audio or Video. The KDMs could also be repurposed as **AppEls**.
 
 ## The Ecosystem of IndiMR Knowledge Management
 
-![](.gitbook/assets/image%20%281%29.png)
+![](.gitbook/assets/image%20%286%29.png)
 
 The ecosystem is a set of tools and repositories aimed at facilitating authoring  and use of KDMs easily and quickly by even non-computer people.
 

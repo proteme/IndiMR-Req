@@ -18,9 +18,27 @@ Each domain within healthcare \(e.g., clinical, administrative, financial, perso
 
 ### Inside Out — Clinical Process as the Core
 
-Most EMRs were created by giving priority to the administrative and the business functions, and the functions that deal with the very core process of healthcare, the clinical process, were added in subsequently. This resulted in most of the systems not just being ill-suited for the use by the clinicians and other healthcare professionals, it made the systems fragile, because each time the core process had a new requirement, each of the system dependent on the core is required to create a proxy representation of the change in their own system.
+Why should the clinical process be given such priority?
+
+Healthcare delivery, especially at  a large scale, is a complex business with many actors playing different roles. However nearly every activity is dependent upon the clinical process or is to facilitate or support the clinical process.
+
+Let's say, there were these important non-clinical processes that needed to be facilitated by the use of information technology. 
+
+![](.gitbook/assets/image.png)
+
+In healthcare, all such processes have to give data to and take data from the clinical process — the process in which the data from the patient is directly collected, and decisions based upon the data are acted upon. The representations for the non-clinical processes were created without having the benefit of querying the clinical process — there was often no representation for the clinical process, or if there was one, it didn't have sufficient data, or was not configured to allow its data to be used by the features for the other processes. 
+
+As a result, they proceeded to create alternative representations of the actual clinical process, each representation worked for each of the ancillary process for which it was created, and seemingly the system worked as expected.
+
+![](.gitbook/assets/image%20%2815%29.png)
+
+Most EMRs were created by giving priority to the administrative, financial and business functions, and the functions that deal with the very core process of healthcare, the clinical process, were added in subsequently. 
+
+This resulted in most of the systems not just being ill-suited for the use by the clinicians and other healthcare professionals, it made the systems fragile, because each time the core process had a new requirement, each of the system dependent on the core is required to create a proxy representation of the change in their own system.
 
 In IndiMR, we plan on addressing the clinical process first, all other processes will be dependent on it, and not the other way around.
+
+Healthcare 
 
 ### Event Model
 
